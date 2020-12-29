@@ -15,6 +15,16 @@
   become: yes
   community.general.alternatives:
     name: python
+    link: "{{ python_alternatives_link }}"
     path: "{{ item.path }}"
     priority: "{{ item.priority }}"
   loop: "{{ python_alternatives }}"
+
+- name: Configure python3 alternatives
+  become: yes
+  community.general.alternatives:
+    name: python
+    link: "{{ python3_alternatives_link }}"
+    path: "{{ item.path }}"
+    priority: "{{ item.priority }}"
+  loop: "{{ python3_alternatives }}"

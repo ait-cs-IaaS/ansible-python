@@ -10,5 +10,8 @@ python_alternatives_link: /usr/bin/python
 python_alternatives:
     - path: /usr/bin/python3.7
       priority: 0
-    - path: /usr/bin/python3
-      priority: 10
+
+python3_alternatives_link: /usr/bin/python3
+python3_alternatives:
+    - path: /usr/bin/python3.7
+      priority: 0
