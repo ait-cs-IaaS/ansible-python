@@ -1,0 +1,11 @@
+- name: Install software-properties
+  become: yes
+  apt:
+    pkg: software-properties-common
+    state: latest
+
+- name: Add python repository
+  become: yes
+  apt_repository:
+    repo: 'ppa:deadsnakes/ppa'
+    codename: "{{ ansible_distribution_release }}"

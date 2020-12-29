@@ -1,0 +1,13 @@
+---
+# defaults file for python
+python_packages:
+    - python3.7
+    - python3-pip
+    - python3.7-venv
+    - python3.7-dev
+
+python_alternatives:
+    - path: /usr/bin/python3.7
+      priority: 0
+    - path: /usr/bin/python3
+      priority: 10
