@@ -5,13 +5,10 @@ python_packages:
     - python3-pip
     - python3.7-venv
     - python3.7-dev
+    - python3-apt
 
 python_alternatives_link: /usr/bin/python
-python_alternatives:
-    - path: /usr/bin/python3.7
-      priority: 0
+python_alternatives: []
 
 python3_alternatives_link: /usr/bin/python3
-python3_alternatives:
-    - path: /usr/bin/python3.7
-      priority: 0
+python3_alternatives: []
