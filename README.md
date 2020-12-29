@@ -12,6 +12,7 @@ Role Variables
 --------------
 
 - `python_packages`: The python packages to install
+- `python_alternatives_link`: The link location to use for the python alternatives config
 - `python_alternatives`: The python alternatives to configure
 
 Example Playbook

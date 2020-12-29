@@ -6,6 +6,7 @@ python_packages:
     - python3.7-venv
     - python3.7-dev
 
+python_alternatives_link: /usr/bin/python
 python_alternatives:
     - path: /usr/bin/python3.7
       priority: 0
