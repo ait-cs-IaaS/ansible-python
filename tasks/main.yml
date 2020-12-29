@@ -23,7 +23,7 @@
 - name: Configure python3 alternatives
   become: yes
   community.general.alternatives:
-    name: python
+    name: python3
     link: "{{ python3_alternatives_link }}"
     path: "{{ item.path }}"
     priority: "{{ item.priority }}"
