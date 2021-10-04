@@ -2,7 +2,7 @@ galaxy_info:
   author: Maximilian Frank
   description: Installs python versions and configures python alternatives
   company: AIT Austrian Institute of Technology
-
+  role_name: python
 
   license: GPL-3.0
 

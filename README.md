@@ -1,5 +1,5 @@
 Python
-=========
+======
 
 This can be used to install various python versions and configure the default python version.
 
@@ -27,4 +27,4 @@ Including an example of how to use your role (for instance, with variables passe
 License
 -------
 
-MIT
+GPL-3.0
